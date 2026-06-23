@@ -3,40 +3,49 @@ layout: page
 title: Home
 ---
 
-<!-- 1. Wix-Style Hero Banner Section -->
-<div style="text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #74ebd5 0%, #9fa8da 100%); color: white; border-radius: 8px; margin-bottom: 40px;">
-  <h1 style="font-size: 3rem; margin-weight: 700; margin-bottom: 10px;">LTC Lab</h1>
-  <p style="font-size: 1.3rem; opacity: 0.9; max-width: 600px; margin: 0 auto;">Innovating, testing, and building the future of web experiences. Welcome to our digital laboratory.</p>
+<div style="background-color: #f8f9fa; padding: 15px 20px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 2px solid #eaeaea;">
+  <span style="font-weight: bold; color: #333; font-size: 1.1rem;">LTC Lab Navigation</span>
+  <div style="display: flex; gap: 20px;">
+    <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Home</a>
+    <a href="{{ '/team' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Our Team</a>
+    <a href="{{ '/publications' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Lab Publications</a>
+    <a href="{{ '/projects' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Funded Projects</a>
+  </div>
 </div>
 
-<!-- 2. Visual Grid Columns -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 50px;">
-  
-  <div style="padding: 20px; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center;">
-    <h3 style="color: #333;">Our Research</h3>
-    <p style="color: #666; font-size: 0.95rem;">Exploring novel development tools, cloud architectures, and user-first digital products.</p>
-  </div>
-
-  <div style="padding: 20px; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center;">
-    <h3 style="color: #333;">The Blog</h3>
-    <p style="color: #666; font-size: 0.95rem;">Read regular logs, code snippets, and behind-the-scenes thoughts straight from our laboratory.</p>
-  </div>
-
+<div style="text-align: center; padding: 50px 20px; background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%); color: white; border-radius: 8px; margin-bottom: 40px;">
+  <h1 style="font-size: 3rem; margin: 0 0 10px 0; font-weight: 700; letter-spacing: -0.5px;">LTC Lab</h1>
+  <p style="font-size: 1.25rem; opacity: 0.95; max-width: 600px; margin: 0 auto; line-height: 1.5;">Language, Technology, and Culture Laboratory</p>
 </div>
 
-<!-- 3. Wix-Style Centered Blog Feed Section -->
-<hr style="border: 0; height: 1px; background: #eee; margin-bottom: 40px;">
+<div style="background: #ffffff; padding: 30px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom: 40px;">
+  <h2 style="color: #1f2937; margin-top: 0; font-size: 1.75rem; border-bottom: 2px solid #f3f4f6; padding-bottom: 10px; font-weight: 600;">About Our Lab</h2>
+  <p style="color: #4b5563; font-size: 1.1rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+    The lab’s core mission is to promote interdisciplinary collaborative research at the intersection of language, technology, and culture. The lab seeks to conduct research that is theoretically grounded and has practical, real-world relevance. The lab was founded by Nate Ming Curran and the majority of lab members are his current or former students. However, the lab also includes several affiliated researchers who frequently collaborate with the lab. Lab members conduct research collaboratively in a mentorship model that prioritizes academic curiosity, collegiality, and collaboration.
+  </p>
+</div>
 
-<h2 style="text-align: center; margin-bottom: 30px; font-weight: 600; color: #222;">Latest Updates</h2>
+<hr style="border: 0; height: 1px; background: #e5e7eb; margin: 40px 0;">
+<h2 style="text-align: center; margin-bottom: 30px; font-weight: 600; color: #1f2937;">Latest Lab Updates</h2>
 
-<ul style="list-style: none; padding: 0; max-width: 700px; margin: 0 auto;">
+<ul style="list-style: none; padding: 0; max-width: 750px; margin: 0 auto 50px auto;">
   {% for post in site.posts %}
-    <li style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #fafafa;">
-      <span style="color: #999; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">{{ post.date | date: "%b %d, %Y" }}</span>
+    <li style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #f3f4f6;">
+      <span style="color: #9ca3af; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">{{ post.date | date: "%b %d, %Y" }}</span>
       <h3 style="margin: 5px 0 10px 0;">
-        <a style="color: #333; text-decoration: none; font-weight: 600;" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a style="color: #2563eb; text-decoration: none; font-weight: 600;" href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h3>
-      <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <p style="color: #4b5563; font-size: 0.95rem; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     </li>
   {% endfor %}
 </ul>
+
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 6px; display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 50px; border-top: 1px solid #eaeaea;">
+  <div style="display: flex; gap: 25px;">
+    <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Home</a>
+    <a href="{{ '/team' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Our Team</a>
+    <a href="{{ '/publications' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Lab Publications</a>
+    <a href="{{ '/projects' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Funded Projects</a>
+  </div>
+  <p style="color: #9ca3af; font-size: 0.85rem; margin: 0;">&copy; {{ "now" | date: "%Y" }} LTC Lab. All Rights Reserved.</p>
+</div>
