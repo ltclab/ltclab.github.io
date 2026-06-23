@@ -1,8 +1,8 @@
 name: Sync Publications OpenAlex
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Runs every night at midnight
+  workflow_dispatch: # Lets you click a button to sync manually
 
 jobs:
   update-publications:
@@ -19,30 +19,22 @@ jobs:
       - name: Install dependencies
         run: pip install requests pyyaml
 
-      - name: Fetch from OpenAlex
+      - name: Create Sync Script File
         run: |
+          cat << 'EOF' > sync.py
           import os
           import requests
           import yaml
           import sys
 
-          # Using OpenAlex's public API to grab works by author name + affiliation keyword
           url = "https://api.openalex.org/works"
           params = {
-              "filter": "author.id:A5034617505", # Unique ID for Nate Curran or we can use search filters
-              "sort": "publication_year:desc,publication_date:desc",
-              "per_page": 5
-          }
-          
-          # Fallback to search query if exact ID filter needs a broader catch
-          fallback_params = {
               "search": "Nate Ming Curran",
               "sort": "publication_year:desc,publication_date:desc",
               "per_page": 5
           }
 
-          # Let's try searching directly for his exact work record
-          response = requests.get(url, params=fallback_params, headers={"User-Agent": "mailto:lab@example.com"})
+          response = requests.get(url, params=params, headers={"User-Agent": "mailto:lab@example.com"})
           
           if response.status_code != 200:
               print(f"API Error: Status {response.status_code}")
@@ -59,11 +51,9 @@ jobs:
               title = work.get("title", "Untitled Work")
               link = work.get("doi") if work.get("doi") else (work.get("ids", {}).get("openalex") or "#")
               
-              # Extract author names string safely
               authors_list = [auth.get("author", {}).get("display_name") for auth in work.get("authorships", [])]
               authors = ", ".join(authors_list[:5]) if authors_list else "Unknown Authors"
               
-              # Extract venue/journal information safely
               location = work.get("primary_location", {}) or {}
               source = location.get("source", {}) or {}
               venue = source.get("display_name", "Journal/Conference")
@@ -74,16 +64,18 @@ jobs:
                   "title": title,
                   "link": link,
                   "authors": authors,
-                  "venue": venue,
+                  "venue": venue if venue else "Journal/Conference",
                   "year": str(year)
               })
 
           os.makedirs("_data", exist_ok=True)
           with open("_data/scholar_publications.yml", "w") as f:
               yaml.dump(data_to_save, f, default_flow_style=False)
-          print("SUCCESS: Synced 5 open-access publications perfectly.")
+          print("SUCCESS: Data compiled successfully.")
           EOF
-          python -c "" # validation check placeholder
+
+      - name: Run Sync Script
+        run: python sync.py
 
       - name: Commit and Push changes
         run: |
