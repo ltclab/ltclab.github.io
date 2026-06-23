@@ -1,4 +1,7 @@
+title: Language Technology and Culture Lab
+description: ""
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
