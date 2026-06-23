@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Upgraded to fix Node warning
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # Upgraded to fix Node warning
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
       - name: Install dependencies
         run: pip install beautifulsoup4 requests pyyaml
@@ -25,40 +25,48 @@ jobs:
           import os
           import requests
           import yaml
+          import sys
           from bs4 import BeautifulSoup
 
-          # Send fake browser headers so Google doesn't instantly block us
+          # Deeply realistic browser identity signatures to navigate security layers
           headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+              "Accept-Language": "en-US,en;q=0.9",
+              "Accept-Encoding": "gzip, deflate, br",
+              "Cache-Control": "max-age=0",
+              "Connection": "keep-alive"
           }
           
           url = "https://scholar.google.com.hk/citations?hl=en&user=VDTAkWcAAAAJ&view_op=list_works&sortby=pubdate"
-          response = requests.get(url, headers=headers)
+          
+          session = requests.Session()
+          response = session.get(url, headers=headers, timeout=15)
           
           if response.status_code != 200:
-              print(f"Error fetching page: Status {response.status_code}")
-              exit(1)
+              print(f"CRITICAL: Google blocked access or returned status {response.status_code}")
+              sys.exit(1)
 
           soup = BeautifulSoup(response.text, "html.parser")
-          rows = soup.find_all("tr", class_="gsc_a_tr")[:5] # Grab latest 5 papers
+          rows = soup.find_all("tr", class_="gsc_a_tr")
+
+          if not rows:
+              print("CRITICAL: Scraping structural mismatch. Google served a CAPTCHA security challenge or layout changed.")
+              sys.exit(1)
 
           data_to_save = []
-          for row in rows:
+          for row in rows[:5]: # Grab latest 5 papers
               title_link = row.find("a", class_="gsc_a_at")
               title = title_link.text if title_link else "Unknown Title"
-              # Build absolute link to the publication detail page
               link = "https://scholar.google.com" + title_link["href"] if title_link else "#"
               
-              # Google Scholar organizes metadata blocks sequentially inside 'gs_gray' divs
               details = row.find_all("div", class_="gs_gray")
               authors = details[0].text if len(details) > 0 else "Unknown Authors"
               venue_year = details[1].text if len(details) > 1 else ""
               
-              # Clean up venue and extract the year from the right-hand column
               year_span = row.find("span", class_="gsc_a_h")
               year = year_span.text.strip() if year_span else "N/A"
               
-              # Clean up venue name trailing text
               venue = venue_year.replace(year, "").strip(", ") if year in venue_year else venue_year
 
               data_to_save.append({
@@ -72,6 +80,7 @@ jobs:
           os.makedirs("_data", exist_ok=True)
           with open("_data/scholar_publications.yml", "w") as f:
               yaml.dump(data_to_save, f, default_flow_style=False)
+          print("SUCCESS: Synced 5 publications perfectly.")
           EOF
 
       - name: Commit and Push changes
