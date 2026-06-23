@@ -4,8 +4,6 @@ title: Funded Projects
 permalink: /projects/
 ---
 
-<h1 style="color: #1f2937; font-weight: 700; margin-bottom: 15px;">Funded Projects</h1>
-
 <div style="color: #4b5563; font-size: 1.05rem; line-height: 1.6; margin-bottom: 35px; background: #fafafa; padding: 20px; border-radius: 6px; border-left: 4px solid #9ca3af;">
   <p style="margin-top: 0;">Our lab looks at how language, identity, and digital communication are shaped across contemporary social and technological contexts. We are especially interested in online platforms, intercultural communication, and applied linguistics, and we aim to produce research that is theoretically grounded, socially relevant, and responsive to emerging challenges in a rapidly changing media environment.</p>
   <p style="margin-bottom: 0;">Our funded projects show our strong track record in competitive research and interdisciplinary collaboration. With a focus on language, gender, platform interaction, and communication in Hong Kong and beyond, we welcome opportunities to work with sponsors, funders, and partners who are committed to supporting innovative research with clear academic, social, and real-world impact.</p>

@@ -4,8 +4,6 @@ title: Lab Publications
 permalink: /publications/
 ---
 
-<h1 style="color: #1f2937; font-weight: 700; margin-bottom: 25px;">Lab Publications</h1>
-
 <ol style="padding-left: 20px; color: #374151; font-size: 1.05rem; line-height: 1.8;">
   <li style="margin-bottom: 15px;">Curran, N. M. (2026). “Anytime, Anywhere”: Online Language Tutoring Platforms and the Rise of the (Im) Mobile Language Teacher. <em>TESOL Quarterly</em>.</li>
   <li style="margin-bottom: 15px;">Chesnut, M., Curran, N. M., & Kim, S. (2026). English in authoritative COVID-19 public health signage in South Korea: multilingual and monolingual practices for domestic and foreign audiences. <em>Multilingua</em>, (0).</li>

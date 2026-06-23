@@ -4,8 +4,6 @@ title: Our Team
 permalink: /team/
 ---
 
-<h1 style="text-align: center; color: #1f2937; font-weight: 700; margin-bottom: 40px;">Our Team</h1>
-
 <h2 style="color: #1e3a8a; background: #eff6ff; padding: 12px 20px; border-radius: 6px; border-left: 5px solid #2563eb; font-weight: 600; margin-bottom: 25px;">Core Lab Members</h2>
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-bottom: 50px;">
