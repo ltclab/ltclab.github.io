@@ -9,6 +9,13 @@ permalink: /projects/
   <p style="margin-bottom: 0;">Our funded projects show our strong track record in competitive research and interdisciplinary collaboration. With a focus on language, gender, platform interaction, and communication in Hong Kong and beyond, we welcome opportunities to work with sponsors, funders, and partners who are committed to supporting innovative research with clear academic, social, and real-world impact.</p>
 </div>
 
+<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+  <a href="mailto:wangziyue@u.nus.edu?subject=Sponsoring%20LTC%20Lab" 
+     style="display: inline-block; background-color: #22c55e; color: white; padding: 12px 28px; font-size: 1.1rem; font-weight: 600; text-decoration: none; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s ease;">
+    Sponsor Us
+  </a>
+</div>
+
 <div style="display: flex; flex-direction: column; gap: 20px;">
   <div style="padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
     <h3 style="margin-top: 0; color: #1e3a8a; font-size: 1.2rem;">Leveling the playing field: Language and gender on online tutoring platforms (OTPs)</h3>
