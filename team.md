@@ -7,6 +7,7 @@ permalink: /team/
 <h2 style="color: #1e3a8a; background: #eff6ff; padding: 12px 20px; border-radius: 6px; border-left: 5px solid #2563eb; font-weight: 600; margin-bottom: 25px;">Core Lab Members</h2>
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-bottom: 50px;">
+  <!-- Prof. Nate Ming Curran -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Ming.png' | relative_url }}" alt="Prof. Nate Ming Curran" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -17,10 +18,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:nate-ming.curran@polyu.edu.hk" style="color: inherit; text-decoration: none;">nate-ming.curran@polyu.edu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Intercultural Communication, Gig Economy, Cosmopolitanism, Motivations for Language Learning</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Broadly speaking, my current research is focused on three areas: 1) language teaching in the gig economy; 2) intercultural communication and identity; and 3) AI-generated discourse and popular discourse about AI. My work is situated at the intersection of applied linguistics, media studies, and cultural studies. I am actively recruiting PhD students interested in the topics above.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Broadly speaking, my current research is focused on three areas: 1) language teaching in the gig economy; 2) intercultural communication and identity; and 3) AI-generated discourse and popular discourse about AI. My work is situated at the intersection of applied linguistics, media studies, and cultural studies. I am actively recruiting PhD students interested in the topics above.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5063124119" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Wang Jinyan Stephy -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Stephy.jpg' | relative_url }}" alt="Wang Jinyan Stephy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -31,10 +36,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jinyan.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">jinyan.wang@connect.polyu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Teacher identity, social media communication, platformization of language education, Gen-AI and language education</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Jinyan (Stephy) Wang is a doctoral candidate in the Faculty of Humanities at the Hong Kong Polytechnic University. Her research interests include language teacher identity, social media communication, intercultural communication, and the platformization of language education. She is also interested in the intersection of language education and Gen-AI. Her work appears in TESOL Quarterly, Applied Linguistics Review and Asian Englishes.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Jinyan (Stephy) Wang is a doctoral candidate in the Faculty of Humanities at the Hong Kong Polytechnic University. Her research interests include language teacher identity, social media communication, intercultural communication, and the platformization of language education. She is also interested in the intersection of language education and Gen-AI. Her work appears in TESOL Quarterly, Applied Linguistics Review and Asian Englishes.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5016551817" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Phoebe -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Phoebe.jpg' | relative_url }}" alt="Phoebe" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -45,6 +54,7 @@ permalink: /team/
     </div>
   </div>
 
+  <!-- Gu Beiwei Lisa -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Lisa.jpg' | relative_url }}" alt="Gu Beiwei Lisa" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -55,6 +65,7 @@ permalink: /team/
     </div>
   </div>
 
+  <!-- Wang Ziyue Ivy -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Ivy.jpg' | relative_url }}" alt="Wang Ziyue Ivy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -65,6 +76,7 @@ permalink: /team/
     </div>
   </div>
 
+  <!-- Zeng Wenjing -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Wenjing.jpg' | relative_url }}" alt="Zeng Wenjing" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -75,7 +87,10 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jinyan.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">jinyan.wang@connect.polyu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Online language teaching; Language and identity; Platformization; Intersectionality</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">I have been working in our lab since graduating from PolyU in 2024. My research focuses on online language teaching, teacher identity, and platform-mediated work. I am particularly interested in how individuals construct and negotiate their identities across different social contexts. More specifically, I study the platformization of language teaching and the experiences of online language tutors in the gig economy, with a focus on the inequalities shaped by intersectional identities. Beyond research, I am drawn to realist literature and film, and I enjoy being close to people, pets, and nature.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">I have been working in our lab since graduating from PolyU in 2024. My research focuses on online language teaching, teacher identity, and platform-mediated work. I am particularly interested in how individuals construct and negotiate their identities across different social contexts. More specifically, I study the platformization of language teaching and the experiences of online language tutors in the gig economy, with a focus on the inequalities shaped by intersectional identities. Beyond research, I am drawn to realist literature and film, and I enjoy being close to people, pets, and nature.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5088235255" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 </div>
@@ -83,6 +98,7 @@ permalink: /team/
 <h2 style="color: #065f46; background: #ecfdf5; padding: 12px 20px; border-radius: 6px; border-left: 5px solid #10b981; font-weight: 600; margin-bottom: 25px;">Affiliated Researchers</h2>
 
 <div style="display: flex; flex-direction: column; gap: 30px;">
+  <!-- Prof. Hernan Galperin -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Hernan.jpg' | relative_url }}" alt="Prof. Hernan Galperin" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -93,10 +109,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:hgalperi@usc.edu" style="color: inherit; text-decoration: none;">hgalperi@usc.edu</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Civic Engagement and Social Justice, Science, Technology and Innovation, Computation and Informatics, Policy and Law</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Hernan Galperin is an internationally recognized expert on Internet policy and digital inequality. His research uses surveys, field experiments and other quantitative methods to understand the determinants of broadband adoption and use, and how these are linked to the mechanisms of social stratification. He is the author of four books and director of ARNIC at USC Annenberg.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Hernan Galperin is an internationally recognized expert on Internet policy and digital inequality. His research uses surveys, field experiments and other quantitative methods to understand the determinants of broadband adoption and use, and how these are linked to the mechanisms of social stratification. He is the author of four books and director of ARNIC at USC Annenberg.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5023910351" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Prof. Kathleen Ahrens -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Kathleen.png.avif' | relative_url }}" alt="Prof. Kathleen Ahrens" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -107,10 +127,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:kathleen.ahrens@polyu.edu.hk" style="color: inherit; text-decoration: none;">kathleen.ahrens@polyu.edu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual and Critical Metaphor Analysis, Corpus Linguistics, Language and Politics, Language and Creativity, Children’s and Young Adult Literature</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Understanding lexical meaning, including evaluative meaning in context and the lexical processing of meaning in the brain, has been the driving impetus behind much of my work in language and cognition. Her recent research has focused on corpora-based analyses, looking at structural conceptual choices made by political entities.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Understanding lexical meaning, including evaluative meaning in context and the lexical processing of meaning in the brain, has been the driving impetus behind much of my work in language and cognition. Her recent research has focused on corpora-based analyses, looking at structural conceptual choices made by political entities.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5023307559" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Prof. Christopher Jenks -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Chris.png.avif' | relative_url }}" alt="Prof. Christopher Jenks" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -121,10 +145,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:c.jenks.j@gmail.com" style="color: inherit; text-decoration: none;">c.jenks.j@gmail.com</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Discourse Analysis, Intercultural Communication, Applied Linguistics, Sociolinguistics, Anthropology, Narrative and Discourse</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Christopher Jenks has worked across six distinct geopolitical regions. He specializes in the study of language in society and is particularly interested in the political and cultural implications of the global spread of English. He is the author and editor of 12 books.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Christopher Jenks has worked across six distinct geopolitical regions. He specializes in the study of language in society and is particularly interested in the political and cultural implications of the global spread of English. He is the author and editor of 12 books.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5038473841" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Prof. Zhen Lichen -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Lichen.jpeg.avif' | relative_url }}" alt="Prof. Zhen Lichen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -135,10 +163,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:lczhen@psu.edu" style="color: inherit; text-decoration: none;">lczhen@psu.edu</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Employee Communication, Technologically-mediated Communication, Quantitative Research, Computational Research</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Lichen Zhen is an Assistant Professor at Abington College, Pennsylvania State University. Her current research interests center on employee communication in technologically-mediated workplaces and online professional communities. She earned her Ph.D. from the University of Southern California.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Lichen Zhen is an Assistant Professor at Abington College, Pennsylvania State University. Her current research interests center on employee communication in technologically-mediated workplaces and online professional communities. She earned her Ph.D. from the University of Southern California.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5051664177" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Dr. Joanna Chen -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Joanna.png.avif' | relative_url }}" alt="Dr. Joanna Chen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -149,10 +181,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual Metaphor Theory, Branding, Persuasion, Business Communication, Professional Communication, AI-assisted Language Learning</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Joanna Zhuoan Chen is a Postdoctoral Fellow in the Department of English and Communication at The Hong Kong Polytechnic University. Her research spans several intersecting fields including marketing, applied linguistics, and Conceptual Metaphor Theory, looking at consumer response to figurative text structure.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Joanna Zhuoan Chen is a Postdoctoral Fellow in the Department of English and Communication at The Hong Kong Polytechnic University. Her research spans several intersecting fields including marketing, applied linguistics, and Conceptual Metaphor Theory, looking at consumer response to figurative text structure.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5034636916" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Joy Hannah Panaligan -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Joy.jpg.avif' | relative_url }}" alt="Joy Hannah Panaligan" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -163,10 +199,14 @@ permalink: /team/
       </h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jpanalig@usc.edu" style="color: inherit; text-decoration: none;">jpanalig@usc.edu</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Online Language Teaching, Labor in Emerging Digital Technologies</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Joy Hannah Panaligan is a doctoral student at USC Annenberg. Her research concerns online language teaching and labor in emerging digital landscapes. Her research has been published in the Journal of Sociolinguistics and Language & Communication.</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Joy Hannah Panaligan is a doctoral student at USC Annenberg. Her research concerns online language teaching and labor in emerging digital landscapes. Her research has been published in the Journal of Sociolinguistics and Language & Communication.</p>
+      
+      <!-- Dynamic Publications Container -->
+      <div class="recent-pubs" data-openalex="A5063086968" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
+  <!-- Chen Huahua -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Huahua.jpg.avif' | relative_url }}" alt="Chen Huahua" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -177,6 +217,7 @@ permalink: /team/
     </div>
   </div>
 
+  <!-- Zhu Wenxi Cora -->
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Cora.jpg.avif' | relative_url }}" alt="Zhu Wenxi Cora" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
@@ -187,3 +228,59 @@ permalink: /team/
     </div>
   </div>
 </div>
+
+<!-- Dynamic OpenAlex Loader Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const elements = document.querySelectorAll('.recent-pubs');
+  
+  elements.forEach(el => {
+    const authorId = el.getAttribute('data-openalex');
+    if (!authorId) return;
+
+    // Show dynamic loading state
+    el.innerHTML = '<span style="font-size: 0.85rem; color: #9ca3af; font-style: italic;">Loading recent publications...</span>';
+
+    // Query OpenAlex API sorted by publication date descending, limit to 3 works
+    const url = `https://api.openalex.org/works?filter=author.id:${authorId}&sort=publication_year:desc,publication_date:desc&per_page=3`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        if (!data.results || data.results.length === 0) {
+          el.remove(); // Hide section gracefully if no works found
+          return;
+        }
+
+        let html = '<h4 style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280;">Recent Publications</h4>';
+        html += '<ul style="margin: 0; padding-left: 18px; font-size: 0.9rem; color: #4b5563; line-height: 1.5;">';
+
+        data.results.forEach(work => {
+          const title = work.title || "Untitled Work";
+          const year = work.publication_year ? ` (${work.publication_year})` : '';
+          const venue = work.primary_location && work.primary_location.source ? work.primary_location.source.display_name : null;
+          const doi = work.doi ? work.doi : null;
+
+          html += '<li style="margin-bottom: 6px; text-align: justify;">';
+          if (doi) {
+            html += `<a href="${doi}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">html += `${title}</a>`;
+          } else {
+            html += `<strong style="font-weight: 500; color: #1f2937;">${title}</strong>`;
+          }
+          html += year;
+          if (venue) {
+            html += `, <em style="color: #6b7280;">${venue}</em>`;
+          }
+          html += '.</li>';
+        });
+
+        html += '</ul>';
+        el.innerHTML = html;
+      })
+      .catch(err => {
+        console.error("OpenAlex Fetch Error:", err);
+        el.remove(); // Fail silently to protect the UI
+      });
+  });
+});
+</script>
