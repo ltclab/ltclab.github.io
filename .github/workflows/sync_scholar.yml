@@ -8,7 +8,7 @@ jobs:
   update-publications:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Grants the bot explicit permission to commit and push files
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -30,8 +30,10 @@ jobs:
           import sys
 
           url = "https://api.openalex.org/works"
+          
+          # Using the pipe symbol (|) combines both author IDs into a single clean request
           params = {
-              "search": "Nate Ming Curran",
+              "filter": "author.id:A5061947416|A5093544766",
               "sort": "publication_year:desc,publication_date:desc",
               "per_page": 5
           }
@@ -45,7 +47,7 @@ jobs:
           results = response.json().get("results", [])
           
           if not results:
-              print("No public data records returned.")
+              print("No records found tied to these specific profile IDs.")
               sys.exit(1)
 
           data_to_save = []
@@ -73,7 +75,7 @@ jobs:
           os.makedirs("_data", exist_ok=True)
           with open("_data/scholar_publications.yml", "w") as f:
               yaml.dump(data_to_save, f, default_flow_style=False)
-          print("SUCCESS: Data compiled successfully.")
+          print(f"SUCCESS: Successfully compiled {len(data_to_save)} exact profile publications.")
           EOF
 
       - name: Run Sync Script
@@ -84,4 +86,4 @@ jobs:
           git config --global user.name "Scholar Sync Bot"
           git config --global user.email "bot@github.com"
           git add _data/scholar_publications.yml
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync top 5 papers from OpenAlex" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync top 5 papers from OpenAlex profiles" && git push)
