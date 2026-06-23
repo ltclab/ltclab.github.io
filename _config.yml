@@ -1,5 +1,3 @@
-title: LTC Lab
-description: Welcome to the Language Technology and Culture Lab.
 theme: minima
 plugins:
   - jekyll-feed
