@@ -8,7 +8,7 @@ permalink: /team/
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-bottom: 50px;">
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Ming.png' | relative_url }}" alt="Prof. Nate Ming Curran" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Ming.png' | relative_url }}" alt="Prof. Nate Ming Curran" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Prof. Nate Ming Curran</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:nate-ming.curran@polyu.edu.hk" style="color: inherit; text-decoration: none;">nate-ming.curran@polyu.edu.hk</a></p>
@@ -18,7 +18,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Stephy.jpg' | relative_url }}" alt="Wang Jinyan Stephy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Stephy.jpg' | relative_url }}" alt="Wang Jinyan Stephy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Wang Jinyan Stephy</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jinyan.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">jinyan.wang@connect.polyu.hk</a></p>
@@ -28,7 +28,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Phoebe.jpg' | relative_url }}" alt="Phoebe" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Phoebe.jpg' | relative_url }}" alt="Phoebe" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Phoebe</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:23051657g@connect.polyu.hk" style="color: inherit; text-decoration: none;">23051657g@connect.polyu.hk</a></p>
@@ -38,7 +38,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Lisa.jpg' | relative_url }}" alt="Gu Beiwei Lisa" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Lisa.jpg' | relative_url }}" alt="Gu Beiwei Lisa" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Gu Beiwei Lisa</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:beiwei-lisa.gu@connect.polyu.hk" style="color: inherit; text-decoration: none;">beiwei-lisa.gu@connect.polyu.hk</a></p>
@@ -48,7 +48,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Ivy.jpg' | relative_url }}" alt="Wang Ziyue Ivy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Ivy.jpg' | relative_url }}" alt="Wang Ziyue Ivy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Wang Ziyue Ivy</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:wangziyue@u.nus.edu" style="color: inherit; text-decoration: none;">wangziyue@u.nus.edu</a></p>
@@ -58,7 +58,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Wenjing.jpg' | relative_url }}" alt="Zeng Wenjing" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Wenjing.jpg' | relative_url }}" alt="Zeng Wenjing" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Zeng Wenjing</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jinyan.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">jinyan.wang@connect.polyu.hk</a></p>
@@ -72,7 +72,7 @@ permalink: /team/
 
 <div style="display: flex; flex-direction: column; gap: 30px;">
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Hernan.jpg' | relative_url }}" alt="Prof. Hernan Galperin" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Hernan.jpg' | relative_url }}" alt="Prof. Hernan Galperin" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Prof. Hernan Galperin</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:hgalperi@usc.edu" style="color: inherit; text-decoration: none;">hgalperi@usc.edu</a></p>
@@ -82,7 +82,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Kathleen.png.avif' | relative_url }}" alt="Prof. Kathleen Ahrens" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Kathleen.png.avif' | relative_url }}" alt="Prof. Kathleen Ahrens" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Prof. Kathleen Ahrens</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:kathleen.ahrens@polyu.edu.hk" style="color: inherit; text-decoration: none;">kathleen.ahrens@polyu.edu.hk</a></p>
@@ -92,7 +92,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Chris.png.avif' | relative_url }}" alt="Prof. Christopher Jenks" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Chris.png.avif' | relative_url }}" alt="Prof. Christopher Jenks" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Prof. Christopher Jenks</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:c.jenks.j@gmail.com" style="color: inherit; text-decoration: none;">c.jenks.j@gmail.com</a></p>
@@ -102,7 +102,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Lichen.jpeg.avif' | relative_url }}" alt="Prof. Zhen Lichen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Lichen.jpeg.avif' | relative_url }}" alt="Prof. Zhen Lichen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Prof. Zhen Lichen</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:lczhen@psu.edu" style="color: inherit; text-decoration: none;">lczhen@psu.edu</a></p>
@@ -112,7 +112,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Joanna.png.avif' | relative_url }}" alt="Dr. Joanna Chen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Joanna.png.avif' | relative_url }}" alt="Dr. Joanna Chen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Dr. Joanna Chen</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
@@ -122,7 +122,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Joy.jpg.avif' | relative_url }}" alt="Joy Hannah Panaligan" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Joy.jpg.avif' | relative_url }}" alt="Joy Hannah Panaligan" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Joy Hannah Panaligan</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jpanalig@usc.edu" style="color: inherit; text-decoration: none;">jpanalig@usc.edu</a></p>
@@ -132,7 +132,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Huahua.jpg.avif' | relative_url }}" alt="Chen Huahua" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Huahua.jpg.avif' | relative_url }}" alt="Chen Huahua" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Chen Huahua</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:huahua2004.chen@connect.polyu.hk" style="color: inherit; text-decoration: none;">huahua2004.chen@connect.polyu.hk</a></p>
@@ -142,7 +142,7 @@ permalink: /team/
   </div>
 
   <div style="display: flex; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Cora.jpg.avif' | relative_url }}" alt="Zhu Wenxi Cora" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Cora.jpg.avif' | relative_url }}" alt="Zhu Wenxi Cora" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem;">Zhu Wenxi Cora</h3>
       <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:22099924d@connect.polyu.hk" style="color: inherit; text-decoration: none;">22099924d@connect.polyu.hk</a></p>
