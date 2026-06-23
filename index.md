@@ -18,12 +18,11 @@ layout: page
 
 <ul style="list-style: none; padding: 0; max-width: 750px; margin: 0 auto 50px auto;">
   {% for post in site.posts %}
-    <li style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #f3f4f6;">
-      <span style="color: #9ca3af; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">{{ post.date | date: "%b %d, %Y" }}</span>
-      <h3 style="margin: 5px 0 10px 0;">
+    <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #f3f4f6; display: flex; align-items: baseline;">
+      <span style="color: #9ca3af; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-right: 20px; flex-shrink: 0; width: 110px;">{{ post.date | date: "%b %d, %Y" }}</span>
+      <h3 style="margin: 0; font-size: 1.15rem; display: inline;">
         <a style="color: #2563eb; text-decoration: none; font-weight: 600;" href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h3>
-      <p style="color: #4b5563; font-size: 0.95rem; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     </li>
   {% endfor %}
 </ul>
