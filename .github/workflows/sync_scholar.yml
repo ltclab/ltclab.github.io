@@ -1,0 +1,82 @@
+name: Sync Google Scholar Direct
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs once a day at midnight
+  workflow_dispatch: # Lets you click a button to sync manually
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests pyyaml
+
+      - name: Scrape Scholar Directly
+        run: |
+          python - <<EOF
+          import os
+          import requests
+          import yaml
+          from bs4 import BeautifulSoup
+
+          # Send fake browser headers so Google doesn't instantly block us
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          }
+          
+          url = "https://scholar.google.com.hk/citations?hl=en&user=VDTAkWcAAAAJ&view_op=list_works&sortby=pubdate"
+          response = requests.get(url, headers=headers)
+          
+          if response.status_code != 200:
+              print(f"Error fetching page: Status {response.status_code}")
+              exit(1)
+
+          soup = BeautifulSoup(response.text, "html.parser")
+          rows = soup.find_all("tr", class_="gsc_a_tr")[:5] # Grab latest 5 papers
+
+          data_to_save = []
+          for row in rows:
+              title_link = row.find("a", class_="gsc_a_at")
+              title = title_link.text if title_link else "Unknown Title"
+              # Build absolute link to the publication detail page
+              link = "https://scholar.google.com" + title_link["href"] if title_link else "#"
+              
+              # Google Scholar organizes metadata blocks sequentially inside 'gs_gray' divs
+              details = row.find_all("div", class_="gs_gray")
+              authors = details[0].text if len(details) > 0 else "Unknown Authors"
+              venue_year = details[1].text if len(details) > 1 else ""
+              
+              # Clean up venue and extract the year from the right-hand column
+              year_span = row.find("span", class_="gsc_a_h")
+              year = year_span.text.strip() if year_span else "N/A"
+              
+              # Clean up venue name trailing text
+              venue = venue_year.replace(year, "").strip(", ") if year in venue_year else venue_year
+
+              data_to_save.append({
+                  "title": title,
+                  "link": link,
+                  "authors": authors,
+                  "venue": venue if venue else "Journal/Conference",
+                  "year": year if year else "N/A"
+              })
+
+          os.makedirs("_data", exist_ok=True)
+          with open("_data/scholar_publications.yml", "w") as f:
+              yaml.dump(data_to_save, f, default_flow_style=False)
+          EOF
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Scholar Sync Bot"
+          git config --global user.email "bot@github.com"
+          git add _data/scholar_publications.yml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Direct sync of top 5 papers from Google Scholar" && git push)
