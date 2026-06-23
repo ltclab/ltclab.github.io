@@ -7,6 +7,8 @@ on:
 jobs:
   update-publications:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants the bot explicit permission to commit and push files
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
