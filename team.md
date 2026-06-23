@@ -20,8 +20,8 @@ permalink: /team/
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Intercultural Communication, Gig Economy, Cosmopolitanism, Motivations for Language Learning</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Broadly speaking, my current research is focused on three areas: 1) language teaching in the gig economy; 2) intercultural communication and identity; and 3) AI-generated discourse and popular discourse about AI. My work is situated at the intersection of applied linguistics, media studies, and cultural studies. I am actively recruiting PhD students interested in the topics above.</p>
       
-      <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5063124119" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <!-- Dynamic Publications Container (Consolidated Profiles) -->
+      <div class="recent-pubs" data-openalex="A5061947416,A5093544766" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
@@ -39,7 +39,7 @@ permalink: /team/
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Jinyan (Stephy) Wang is a doctoral candidate in the Faculty of Humanities at the Hong Kong Polytechnic University. Her research interests include language teacher identity, social media communication, intercultural communication, and the platformization of language education. She is also interested in the intersection of language education and Gen-AI. Her work appears in TESOL Quarterly, Applied Linguistics Review and Asian Englishes.</p>
       
       <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5016551817" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <div class="recent-pubs" data-openalex="A5030344817" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
@@ -90,7 +90,7 @@ permalink: /team/
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">I have been working in our lab since graduating from PolyU in 2024. My research focuses on online language teaching, teacher identity, and platform-mediated work. I am particularly interested in how individuals construct and negotiate their identities across different social contexts. More specifically, I study the platformization of language teaching and the experiences of online language tutors in the gig economy, with a focus on the inequalities shaped by intersectional identities. Beyond research, I am drawn to realist literature and film, and I enjoy being close to people, pets, and nature.</p>
       
       <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5088235255" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <div class="recent-pubs" data-openalex="A5010353808" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 </div>
@@ -112,7 +112,7 @@ permalink: /team/
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Hernan Galperin is an internationally recognized expert on Internet policy and digital inequality. His research uses surveys, field experiments and other quantitative methods to understand the determinants of broadband adoption and use, and how these are linked to the mechanisms of social stratification. He is the author of four books and director of ARNIC at USC Annenberg.</p>
       
       <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5023910351" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <div class="recent-pubs" data-openalex="A5044232451" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
@@ -129,8 +129,8 @@ permalink: /team/
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual and Critical Metaphor Analysis, Corpus Linguistics, Language and Politics, Language and Creativity, Children’s and Young Adult Literature</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Understanding lexical meaning, including evaluative meaning in context and the lexical processing of meaning in the brain, has been the driving impetus behind much of my work in language and cognition. Her recent research has focused on corpora-based analyses, looking at structural conceptual choices made by political entities.</p>
       
-      <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5023307559" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <!-- Dynamic Publications Container (Consolidated 3 Profiles) -->
+      <div class="recent-pubs" data-openalex="A5050451776,A5135751203,A5083158800" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
@@ -148,7 +148,7 @@ permalink: /team/
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Christopher Jenks has worked across six distinct geopolitical regions. He specializes in the study of language in society and is particularly interested in the political and cultural implications of the global spread of English. He is the author and editor of 12 books.</p>
       
       <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5038473841" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <div class="recent-pubs" data-openalex="A5069641348" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
@@ -166,7 +166,7 @@ permalink: /team/
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Lichen Zhen is an Assistant Professor at Abington College, Pennsylvania State University. Her current research interests center on employee communication in technologically-mediated workplaces and online professional communities. She earned her Ph.D. from the University of Southern California.</p>
       
       <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5051664177" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <div class="recent-pubs" data-openalex="A5064533411" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
@@ -235,52 +235,75 @@ document.addEventListener("DOMContentLoaded", function() {
   const elements = document.querySelectorAll('.recent-pubs');
   
   elements.forEach(el => {
-    const authorId = el.getAttribute('data-openalex');
-    if (!authorId) return;
+    const rawIds = el.getAttribute('data-openalex');
+    if (!rawIds) return;
 
-    // Show dynamic loading state
+    const authorIds = rawIds.split(',').map(id => id.trim().toUpperCase());
+    
     el.innerHTML = '<span style="font-size: 0.85rem; color: #9ca3af; font-style: italic;">Loading recent publications...</span>';
 
-    // Query OpenAlex API sorted by publication date descending, limit to 3 works
-    const url = `https://api.openalex.org/works?filter=author.id:${authorId}&sort=publication_year:desc,publication_date:desc&per_page=3`;
-
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        if (!data.results || data.results.length === 0) {
-          el.remove(); // Hide section gracefully if no works found
-          return;
-        }
-
-        let html = '<h4 style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280;">Recent Publications</h4>';
-        html += '<ul style="margin: 0; padding-left: 18px; font-size: 0.9rem; color: #4b5563; line-height: 1.5;">';
-
-        data.results.forEach(work => {
-          const title = work.title || "Untitled Work";
-          const year = work.publication_year ? ` (${work.publication_year})` : '';
-          const venue = work.primary_location && work.primary_location.source ? work.primary_location.source.display_name : null;
-          const doi = work.doi ? work.doi : null;
-
-          html += '<li style="margin-bottom: 6px; text-align: justify;">';
-          if (doi) {
-            html += `<a href="${doi}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>`;
-          } else {
-            html += `<strong style="font-weight: 500; color: #1f2937;">${title}</strong>`;
-          }
-          html += year;
-          if (venue) {
-            html += `, <em style="color: #6b7280;">${venue}</em>`;
-          }
-          html += '.</li>';
+    const fetchPromises = authorIds.map(id => {
+      const url = `https://api.openalex.org/works?filter=author.id:${id}&sort=publication_year:desc,publication_date:desc&per_page=5`;
+      return fetch(url)
+        .then(res => res.json())
+        .then(data => data.results || [])
+        .catch(err => {
+          console.error(`Error loading profile ${id}:`, err);
+          return [];
         });
+    });
 
-        html += '</ul>';
-        el.innerHTML = html;
-      })
-      .catch(err => {
-        console.error("OpenAlex Fetch Error:", err);
-        el.remove(); // Fail silently to protect the UI
+    Promise.all(fetchPromises).then(resultsArray => {
+      let combinedWorks = [].concat(...resultsArray);
+
+      if (combinedWorks.length === 0) {
+        el.remove();
+        return;
+      }
+
+      const seenIds = new Set();
+      combinedWorks = combinedWorks.filter(work => {
+        if (!work.id || seenIds.has(work.id)) return false;
+        seenIds.add(work.id);
+        return true;
       });
+
+      combinedWorks.sort((a, b) => {
+        const dateA = a.publication_date || `${a.publication_year || 0}-01-01`;
+        const dateB = b.publication_date || `${b.publication_year || 0}-01-01`;
+        return dateB.localeCompare(dateA);
+      });
+
+      const finalWorks = combinedWorks.slice(0, 3);
+
+      let html = '<h4 style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280;">Recent Publications</h4>';
+      html += '<ul style="margin: 0; padding-left: 18px; font-size: 0.9rem; color: #4b5563; line-height: 1.5;">';
+
+      finalWorks.forEach(work => {
+        const title = work.title || "Untitled Work";
+        const year = work.publication_year ? ` (${work.publication_year})` : '';
+        const venue = work.primary_location && work.primary_location.source ? work.primary_location.source.display_name : null;
+        const doi = work.doi ? work.doi : null;
+
+        html += '<li style="margin-bottom: 6px; text-align: justify;">';
+        if (doi) {
+          html += `<a href="${doi}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>`;
+        } else {
+          html += `<strong style="font-weight: 500; color: #1f2937;">${title}</strong>`;
+        }
+        html += year;
+        if (venue) {
+          html += `, <em style="color: #6b7280;">${venue}</em>`;
+        }
+        html += '.</li>';
+      });
+
+      html += '</ul>';
+      el.innerHTML = html;
+    }).catch(err => {
+      console.error("OpenAlex Combined Fetch Error:", err);
+      el.remove();
+    });
   });
 });
 </script>
