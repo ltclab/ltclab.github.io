@@ -4,16 +4,6 @@ title: Lab Publications
 permalink: /publications/
 ---
 
-<div style="background-color: #f8f9fa; padding: 15px 20px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 2px solid #eaeaea;">
-  <span style="font-weight: bold; color: #333; font-size: 1.1rem;">LTC Lab Navigation</span>
-  <div style="display: flex; gap: 20px;">
-    <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Home</a>
-    <a href="{{ '/projects' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Funded Projects</a>
-    <a href="{{ '/publications' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Lab Publications</a>
-    <a href="{{ '/team' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Our Team</a>
-  </div>
-</div>
-
 <h1 style="color: #1f2937; font-weight: 700; margin-bottom: 25px;">Lab Publications</h1>
 
 <ol style="padding-left: 20px; color: #374151; font-size: 1.05rem; line-height: 1.8;">

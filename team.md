@@ -4,16 +4,6 @@ title: Our Team
 permalink: /team/
 ---
 
-<div style="background-color: #f8f9fa; padding: 15px 20px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 2px solid #eaeaea;">
-  <span style="font-weight: bold; color: #333; font-size: 1.1rem;">LTC Lab Navigation</span>
-  <div style="display: flex; gap: 20px;">
-    <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Home</a>
-    <a href="{{ '/projects' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Funded Projects</a>
-    <a href="{{ '/publications' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Lab Publications</a>
-    <a href="{{ '/team' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Our Team</a>
-  </div>
-</div>
-
 <h1 style="text-align: center; color: #1f2937; font-weight: 700; margin-bottom: 40px;">Our Team</h1>
 
 <h2 style="color: #1e3a8a; background: #eff6ff; padding: 12px 20px; border-radius: 6px; border-left: 5px solid #2563eb; font-weight: 600; margin-bottom: 25px;">Core Lab Members</h2>
