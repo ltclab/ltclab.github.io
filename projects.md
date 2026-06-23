@@ -10,7 +10,7 @@ permalink: /projects/
 </div>
 
 <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-  <a href="mailto:wangziyue@u.nus.edu?subject=Sponsoring%20LTC%20Lab" 
+  <a href="mailto:ziyue.wang@connect.polyu.hk?subject=Sponsoring%20LTC%20Lab" 
      style="display: inline-block; background-color: #22c55e; color: white; padding: 12px 28px; font-size: 1.1rem; font-weight: 600; text-decoration: none; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s ease;">
     Sponsor Us
   </a>
