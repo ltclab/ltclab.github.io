@@ -5,7 +5,6 @@ title: Home
 
 <div style="text-align: center; padding: 50px 20px; background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%); color: white; border-radius: 8px; margin-bottom: 40px;">
   <h1 style="font-size: 3rem; margin: 0 0 10px 0; font-weight: 700; letter-spacing: -0.5px;">Language Technology and Culture Lab</h1>
-  <p style="font-size: 1.25rem; opacity: 0.95; max-width: 600px; margin: 0 auto; line-height: 1.5;">LTC Lab</p>
 </div>
 
 <div style="background: #ffffff; padding: 30px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom: 40px;">
