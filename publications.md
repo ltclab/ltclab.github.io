@@ -29,12 +29,3 @@ permalink: /publications/
   <li style="margin-bottom: 15px;">Chesnut, M., Curran, N. & Kim, S. (2023). From garbage to COVID-19: theorizing ‘Multilingual Commanding Urgency’ in the linguistic landscape. <em>Multilingua</em>, 42(1), 25-53. DOI: <a href="https://doi.org/10.1515/multi-2022-0009" target="_blank" style="color: #2563eb; text-decoration: underline;">10.1515/multi-2022-0009</a></li>
   <li style="margin-bottom: 15px;">Curran, N. M., Zhen, L., & Galperin, H. (2023). Pop cosmopolitanism and online language learning: findings from a discrete choice experiment. <em>Information, Communication & Society</em>, 26(1), 104–122. DOI: <a href="https://doi.org/10.1080/1369118X.2021.1934068" target="_blank" style="color: #2563eb; text-decoration: underline;">10.1080/1369118X.2021.1934068</a></li>
 </ol>
-
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 6px; display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 50px; border-top: 1px solid #eaeaea;">
-  <div style="display: flex; gap: 25px;">
-    <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Home</a>
-    <a href="{{ '/projects' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Funded Projects</a>
-    <a href="{{ '/publications' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Lab Publications</a>
-    <a href="{{ '/team' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Our Team</a>
-  </div>
-</div>

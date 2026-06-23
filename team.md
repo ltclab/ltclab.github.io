@@ -151,12 +151,3 @@ permalink: /team/
     </div>
   </div>
 </div>
-
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 6px; display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 50px; border-top: 1px solid #eaeaea;">
-  <div style="display: flex; gap: 25px;">
-    <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Home</a>
-    <a href="{{ '/projects' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Funded Projects</a>
-    <a href="{{ '/publications' | relative_url }}" style="text-decoration: none; color: #333; font-weight: 500;">Lab Publications</a>
-    <a href="{{ '/team' | relative_url }}" style="text-decoration: none; color: #0056b3; font-weight: 600;">Our Team</a>
-  </div>
-</div>
