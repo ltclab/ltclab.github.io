@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Latest publications from Prof Nate Ming Curran
+title: Latest publications from the Lab
 date: 2026-06-23T15:13
 ---
 
-Here are some of the latest publications by Prof Nate Ming Curran:
+Here are some of the latest publications from the LTC Lab:
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 25px;">
   {% for pub in site.data.scholar_publications %}
