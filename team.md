@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
           html += '<li style="margin-bottom: 6px; text-align: justify;">';
           if (doi) {
-            html += `<a href="${doi}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">html += `${title}</a>`;
+            html += `<a href="${doi}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>`;
           } else {
             html += `<strong style="font-weight: 500; color: #1f2937;">${title}</strong>`;
           }
