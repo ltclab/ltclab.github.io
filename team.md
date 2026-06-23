@@ -38,7 +38,7 @@ permalink: /team/
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Teacher identity, social media communication, platformization of language education, Gen-AI and language education</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Jinyan (Stephy) Wang is a doctoral candidate in the Faculty of Humanities at the Hong Kong Polytechnic University. Her research interests include language teacher identity, social media communication, intercultural communication, and the platformization of language education. She is also interested in the intersection of language education and Gen-AI. Her work appears in TESOL Quarterly, Applied Linguistics Review and Asian Englishes.</p>
       
-      <!-- Dynamic Publications Container (Updated with correct OpenAlex ID) -->
+      <!-- Dynamic Publications Container -->
       <div class="recent-pubs" data-openalex="A5030344817" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
@@ -201,8 +201,8 @@ permalink: /team/
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Online Language Teaching, Labor in Emerging Digital Technologies</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: justify;">Joy Hannah Panaligan is a doctoral student at USC Annenberg. Her research concerns online language teaching and labor in emerging digital landscapes. Her research has been published in the Journal of Sociolinguistics and Language & Communication.</p>
       
-      <!-- Dynamic Publications Container -->
-      <div class="recent-pubs" data-openalex="A5063086968" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <!-- Dynamic Publications Container (Updated with correct OpenAlex ID) -->
+      <div class="recent-pubs" data-openalex="A5089948014" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
