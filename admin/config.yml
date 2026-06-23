@@ -2,10 +2,9 @@ backend:
   name: github
   repo: ltclab/ltclab.github.io
   branch: main
-  site_domain: ltclab.github.io
-  base_url: https://github-gatekeeper.sombra.cc # Free login secure bridge
+  # No server or proxy URL needed here anymore!
 
-media_folder: "assets/uploads" # Where your images will be stored
+media_folder: "assets/uploads" 
 public_folder: "/assets/uploads"
 
 collections:
@@ -18,5 +17,4 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
