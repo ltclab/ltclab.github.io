@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Home
 ---
 
 <div style="text-align: center; padding: 50px 20px; background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%); color: white; border-radius: 8px; margin-bottom: 40px;">
