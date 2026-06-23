@@ -27,3 +27,12 @@ layout: page
     </li>
   {% endfor %}
 </ul>
+
+<div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScIqVxnWMpCOGOnpt-M7xhjczy43RUizZDhBEXtmU9NQNpj7Q/viewform" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     style="display: inline-block; background-color: #0056b3; color: white; padding: 12px 28px; font-size: 1.1rem; font-weight: 600; text-decoration: none; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s ease;">
+    Contact Us
+  </a>
+</div>
