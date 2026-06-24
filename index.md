@@ -8,7 +8,7 @@ layout: page
 
 <div style="background: #ffffff; padding: 30px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom: 40px;">
   <h2 style="color: #1f2937; margin-top: 0; font-size: 1.75rem; border-bottom: 2px solid #f3f4f6; padding-bottom: 10px; font-weight: 600;">About Our Lab</h2>
-  <p style="color: #4b5563; font-size: 1.1rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+  <p style="color: #4b5563; font-size: 1.1rem; line-height: 1.7; text-align: left; margin-bottom: 0;">
     The lab’s core mission is to promote interdisciplinary collaborative research at the intersection of language, technology, and culture. The lab seeks to conduct research that is theoretically grounded and has practical, real-world relevance. The lab was founded by Nate Ming Curran and the majority of lab members are his current or former students. However, the lab also includes several affiliated researchers who frequently collaborate with the lab. Lab members conduct research collaboratively in a mentorship model that prioritizes academic curiosity, collegiality, and collaboration.
   </p>
 </div>
