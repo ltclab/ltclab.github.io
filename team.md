@@ -133,7 +133,7 @@ permalink: /team/
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Discourse Analysis, Intercultural Communication, Applied Linguistics, Sociolinguistics, Anthropology, Narrative and Discourse</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Christopher Jenks has worked across six distinct geopolitical regions. He specializes in the study of language in society and is particularly interested in the political and cultural implications of the global spread of English. He is the author and editor of 12 books.</p>
       
-      <div class="recent-pubs" data-openalex="A5069641348" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+      <div class="recent-pubs" data-openalex="A5071097398" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
