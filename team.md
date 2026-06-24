@@ -63,7 +63,7 @@ permalink: /team/
     <img src="{{ '/images/Ivy.jpg' | relative_url }}" alt="Wang Ziyue Ivy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem; font-weight: 600;">Wang Ziyue Ivy</h3>
-      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:wangziyue@u.nus.edu" style="color: inherit; text-decoration: none;">wangziyue@u.nus.edu</a></p>
+      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:ziyue.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">ziyue.wang@connect.polyu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Gender and Sexuality, Digital Communication, Online Language Teaching, Visual Semiotics</p>
       <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">I am currently an MA research student in the Department of English, Linguistics, and Theatre Studies in the National University of Singapore. I received my BA in English and Applied Linguistics from The Hong Kong Polytechnic University. My current research interests include language, gender, and sexuality; new media and digital communication; online language teaching; and visual semiotics.</p>
     </div>
