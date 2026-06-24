@@ -157,4 +157,129 @@ permalink: /team/
     <img src="{{ '/images/Joanna.png.avif' | relative_url }}" alt="Dr. Joanna Chen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
       <h3 style="margin: 0; font-size: 1.35rem;">
-        <a href="
+        <a href="https://scholar.google.com/citations?user=aO51kbYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
+          Dr. Joanna Chen
+        </a>
+      </h3>
+      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
+      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual Metaphor Theory, Branding, Persuasion, Business Communication, Professional Communication, AI-assisted Language Learning</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Joanna Zhuoan Chen is a Postdoctoral Fellow in the Department of English and Communication at The Hong Kong Polytechnic University. Her research spans several intersecting fields including marketing, applied linguistics, and Conceptual Metaphor Theory, looking at consumer response to figurative text structure.</p>
+      
+      <div class="recent-pubs" data-openalex="A5078809635" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
+    <img src="{{ '/images/Joy.jpg.avif' | relative_url }}" alt="Joy Hannah Panaligan" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
+      <h3 style="margin: 0; font-size: 1.35rem;">
+        <a href="https://scholar.google.com/citations?user=HLbsUfoAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
+          Joy Hannah Panaligan
+        </a>
+      </h3>
+      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jpanalig@usc.edu" style="color: inherit; text-decoration: none;">jpanalig@usc.edu</a></p>
+      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Online Language Teaching, Labor in Emerging Digital Technologies</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Joy Hannah Panaligan is a doctoral student at USC Annenberg. Her research concerns online language teaching and labor in emerging digital landscapes. Her research has been published in the Journal of Sociolinguistics and Language & Communication.</p>
+      
+      <div class="recent-pubs" data-openalex="A5089948014" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
+    <img src="{{ '/images/Huahua.jpg.avif' | relative_url }}" alt="Chen Huahua" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
+      <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem; font-weight: 600;">Chen Huahua</h3>
+      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:huahua2004.chen@connect.polyu.hk" style="color: inherit; text-decoration: none;">huahua2004.chen@connect.polyu.hk</a></p>
+      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Appraisal, Attitude, Finance, Discourse analysis</p>
+      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">CHEN Huahua is an incoming student at the Department of Statistics at the Chinese University of Hong Kong. She obtained a Bachelor of Arts with a dual focus on Linguistics and Data Sciences from Hong Kong Polytechnic University.</p>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
+    <img src="{{ '/images/Cora.jpg.avif' | relative_url }}" alt="Zhu Wenxi Cora" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
+      <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem; font-weight: 600;">Zhu Wenxi Cora</h3>
+      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:22099924d@connect.polyu.hk" style="color: inherit; text-decoration: none;">22099924d@connect.polyu.hk</a></p>
+      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Corpus Linguistics, Language and Identity, Digital Health Discourse, Sociolinguistics</p>
+      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Cora Zhu Wenxi is an undergraduate researcher at the Department of English and Communication, The Hong Kong Polytechnic University. Her research applies corpus linguistics and computational methods to explore identity constructions within digital spaces.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const elements = document.querySelectorAll('.recent-pubs');
+  
+  elements.forEach(el => {
+    const rawIds = el.getAttribute('data-openalex');
+    if (!rawIds) return;
+
+    const authorIds = rawIds.split(',').map(id => id.trim().toUpperCase());
+    
+    el.innerHTML = '<span style="font-size: 0.85rem; color: #9ca3af; font-style: italic;">Loading recent publications...</span>';
+
+    const fetchPromises = authorIds.map(id => {
+      const url = `https://api.openalex.org/works?filter=author.id:${id}&sort=publication_year:desc,publication_date:desc&per_page=5`;
+      return fetch(url)
+        .then(res => res.json())
+        .then(data => data.results || [])
+        .catch(err => {
+          console.error(`Error loading profile ${id}:`, err);
+          return [];
+        });
+    });
+
+    Promise.all(fetchPromises).then(resultsArray => {
+      let combinedWorks = [].concat(...resultsArray);
+
+      if (combinedWorks.length === 0) {
+        el.remove();
+        return;
+      }
+
+      const seenIds = new Set();
+      combinedWorks = combinedWorks.filter(work => {
+        if (!work.id || seenIds.has(work.id)) return false;
+        seenIds.add(work.id);
+        return true;
+      });
+
+      combinedWorks.sort((a, b) => {
+        const dateA = a.publication_date || `${a.publication_year || 0}-01-01`;
+        const dateB = b.publication_date || `${b.publication_year || 0}-01-01`;
+        return dateB.localeCompare(dateA);
+      });
+
+      const finalWorks = combinedWorks.slice(0, 3);
+
+      let html = '<h4 style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280;">Recent Publications</h4>';
+      html += '<ul style="margin: 0; padding-left: 18px; font-size: 0.9rem; color: #4b5563; line-height: 1.5; text-align: left;">';
+
+      finalWorks.forEach(work => {
+        const title = work.title || "Untitled Work";
+        const year = work.publication_year ? ` (${work.publication_year})` : '';
+        const venue = work.primary_location && work.primary_location.source ? work.primary_location.source.display_name : null;
+        const doi = work.doi ? work.doi : null;
+
+        html += '<li style="margin-bottom: 6px; text-align: left; word-break: break-word; overflow-wrap: break-word;">';
+        if (doi) {
+          html += `<a href="${doi}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>`;
+        } else {
+          html += `<strong style="font-weight: 500; color: #1f2937;">${title}</strong>`;
+        }
+        html += year;
+        if (venue) {
+          html += `, <em style="color: #6b7280;">${venue}</em>`;
+        }
+        html += '.</li>';
+      });
+
+      html += '</ul>';
+      el.innerHTML = html;
+    }).catch(err => {
+      console.error("OpenAlex Combined Fetch Error:", err);
+      el.remove();
+    });
+  });
+});
+</script>
