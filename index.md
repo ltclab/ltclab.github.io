@@ -13,6 +13,7 @@ layout: page
   </p>
 </div>
 
+{% comment %}
 <hr style="border: 0; height: 1px; background: #e5e7eb; margin: 40px 0;">
 <h2 style="text-align: center; margin-bottom: 30px; font-weight: 600; color: #1f2937;">Latest Lab Updates</h2>
 
@@ -26,6 +27,7 @@ layout: page
     </li>
   {% endfor %}
 </ul>
+{% endcomment %}
 
 <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScIqVxnWMpCOGOnpt-M7xhjczy43RUizZDhBEXtmU9NQNpj7Q/viewform" 
