@@ -29,10 +29,36 @@ jobs:
           import yaml
           import sys
 
+          def format_apa_authors(authorships):
+              apa_names = []
+              # APA 7th says list up to 20 authors before using ellipses
+              for auth in authorships[:20]:
+                  full_name = auth.get("author", {}).get("display_name", "").strip()
+                  if not full_name:
+                      continue
+                  
+                  parts = full_name.split()
+                  if len(parts) > 1:
+                      # Assumes last word is the surname; converts preceding words to initials
+                      surname = parts[-1]
+                      initials = "".join([f"{p[0]}." for p in parts[:-1]])
+                      # Insert space between initials to comply with APA style
+                      initials_formatted = " ".join([f"{p[0]}." for p in parts[:-1]])
+                      apa_names.append(f"{surname}, {initials_formatted}")
+                  else:
+                      apa_names.append(full_name)
+              
+              if not apa_names:
+                  return "Unknown Authors"
+                  
+              if len(apa_names) == 1:
+                  return apa_names[0]
+              elif len(apa_names) == 2:
+                  return f"{apa_names[0]}, & {apa_names[1]}"
+              else:
+                  return ", ".join(apa_names[:-1]) + f", & {apa_names[-1]}"
+
           url = "https://api.openalex.org/works"
-          
-          # Filter restricted back to just Ming's two profile IDs
-          # Still pulling everything from 2023 onwards up to 100 entries
           params = {
               "filter": "author.id:A5061947416|A5093544766,publication_year:>2022",
               "sort": "publication_year:desc,publication_date:desc",
@@ -40,43 +66,48 @@ jobs:
           }
 
           response = requests.get(url, params=params, headers={"User-Agent": "mailto:lab@example.com"})
-          
           if response.status_code != 200:
-              print(f"API Error: Status {response.status_code}")
               sys.exit(1)
               
           results = response.json().get("results", [])
-          
-          if not results:
-              print("No records found tied to these specific profile IDs since 2023.")
-              sys.exit(1)
-
           data_to_save = []
+
           for work in results:
-              title = work.get("title", "Untitled Work")
-              link = work.get("doi") if work.get("doi") else (work.get("ids", {}).get("openalex") or "#")
+              title = work.get("title", "Untitled Work").strip(".")
+              doi = work.get("doi") # OpenAlex natively returns the full https://doi.org/... string
               
-              authors_list = [auth.get("author", {}).get("display_name") for auth in work.get("authorships", [])]
-              authors = ", ".join(authors_list[:5]) if authors_list else "Unknown Authors"
+              authors = format_apa_authors(work.get("authorships", []))
               
               location = work.get("primary_location", {}) or {}
               source = location.get("source", {}) or {}
               venue = source.get("display_name", "Journal/Conference")
               
               year = work.get("publication_year", "N/A")
+              
+              # Extract APA Bibliographic details
+              biblio = work.get("biblio", {}) or {}
+              volume = biblio.get("volume")
+              issue = biblio.get("issue")
+              
+              # Construct page ranges clean
+              first_p = biblio.get("first_page")
+              last_p = biblio.get("last_page")
+              pages = f"{first_p}–{last_p}" if first_p and last_p else first_p
 
               data_to_save.append({
                   "title": title,
-                  "link": link,
+                  "doi": doi if doi else None,
                   "authors": authors,
                   "venue": venue if venue else "Journal/Conference",
-                  "year": str(year)
+                  "year": str(year),
+                  "volume": str(volume) if volume else None,
+                  "issue": str(issue) if issue else None,
+                  "pages": str(pages) if pages else None
               })
 
           os.makedirs("_data", exist_ok=True)
           with open("_data/scholar_publications.yml", "w") as f:
-              yaml.dump(data_to_save, f, default_flow_style=False)
-          print(f"SUCCESS: Successfully compiled {len(data_to_save)} exact profile publications.")
+              yaml.dump(data_to_save, f, default_flow_style=False, allow_unicode=True)
           EOF
 
       - name: Run Sync Script
@@ -87,4 +118,4 @@ jobs:
           git config --global user.name "Scholar Sync Bot"
           git config --global user.email "bot@github.com"
           git add _data/scholar_publications.yml
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers since 2023 from OpenAlex" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers with APA parsing" && git push)
