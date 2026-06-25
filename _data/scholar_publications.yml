@@ -1,39 +1,3 @@
-- authors: Curran, N. M., Gu, B., Zhen, L., & Jenks, C.
-  doi: https://doi.org/10.1177/00336882251367459
-  issue: null
-  pages: 00336882251367459
-  title: 'AI and Native Speakerism: The Intersections of Technology, Language Assessment,
-    and Linguistic Objectivity'
-  venue: RELC Journal
-  volume: null
-  year: '2025'
-- authors: Wang, J., & Curran, N. M.
-  doi: https://doi.org/10.1080/13488678.2024.2448380
-  issue: '2'
-  pages: 383–403
-  title: 'Language teachers'' use of social media platforms and online tutoring platforms:
-    A scoping review'
-  venue: Asian Englishes
-  volume: '27'
-  year: '2025'
-- authors: Zeng, W., & Curran, N. M.
-  doi: https://doi.org/10.1111/ijal.70001
-  issue: null
-  pages: null
-  title: 'Iterative Self-Branding: Chinese Language Teachers'' Understanding and Rationalization
-    of Working on Online Tutoring Platforms'
-  venue: International Journal of Applied Linguistics
-  volume: null
-  year: '2025'
-- authors: Curran, N. M., & Ladegaard, H. J.
-  doi: https://doi.org/10.1080/14708477.2025.2527991
-  issue: null
-  pages: null
-  title: 'Interculturality, linguistic diversity, and social inclusion: current issues
-    and future challenges'
-  venue: Language and Intercultural Communication
-  volume: null
-  year: '2025'
 - authors: Curran, N. M.
   doi: https://doi.org/10.1002/tesq.70101
   issue: null
@@ -61,6 +25,59 @@
   venue: Multilingua
   volume: '45'
   year: '2026'
+- authors: Gu, B., & Curran, N. M.
+  doi: null
+  issue: '2'
+  pages: 257-279
+  title: English tutors’ emotions, agency, and identity development in the aftermath
+    of China’s Double Reduction policy
+  venue: Educational Linguistics
+  volume: '4'
+  year: '2025'
+- authors: Zeng, W., & Curran, N. M.
+  doi: https://doi.org/10.1111/ijal.70001
+  issue: null
+  pages: null
+  title: 'Iterative Self-Branding: Chinese Language Teachers'' Understanding and Rationalization
+    of Working on Online Tutoring Platforms'
+  venue: International Journal of Applied Linguistics
+  volume: null
+  year: '2025'
+- authors: Curran, N. M., & Ladegaard, H. J.
+  doi: https://doi.org/10.1080/14708477.2025.2527991
+  issue: null
+  pages: null
+  title: 'Interculturality, linguistic diversity, and social inclusion: current issues
+    and future challenges'
+  venue: Language and Intercultural Communication
+  volume: null
+  year: '2025'
+- authors: Sun, W., Curran, N. M., Kim, J., Zhou, L., & Lee, C.
+  doi: null
+  issue: null
+  pages: 1-16
+  title: '“I Want to be Part of Them”: A Phenomenological Study of Chinese Table Tennis
+    Players Seeking Nostalgic Leisure Experiences in Korea'
+  venue: Leisure Sciences
+  volume: null
+  year: '2025'
+- authors: Curran, N. M.
+  doi: 10.1111/weng.12717
+  issue: null
+  pages: 624-637
+  title: Foreign English teachers’ intercultural reactions to China's “Double Reduction”
+    policy
+  venue: World Englishes
+  volume: '44'
+  year: '2025'
+- authors: Wang, J., & Curran, N. M.
+  doi: 10.1515/applirev-2025-0226
+  issue: null
+  pages: null
+  title: Self-branding and the commodification of regional identity on Douyin
+  venue: Applied Linguistics Review
+  volume: null
+  year: '2025'
 - authors: Zeng, W., & Curran, N. M.
   doi: https://doi.org/10.1177/00336882251385773
   issue: null
@@ -96,6 +113,14 @@
   venue: Asian Englishes
   volume: '27'
   year: '2025'
+- authors: Istad, F., Kim, M. J., & Curran, N. M.
+  doi: '10.1177_17496020221124704'
+  issue: null
+  pages: null
+  title: 'Banal Koreanness: National imagery in multicultural-themed television shows'
+  venue: Critical Studies in Television
+  volume: null
+  year: '2024'
 - authors: Curran, N. M.
   doi: https://doi.org/10.1080/15348458.2024.2426007
   issue: null
@@ -123,6 +148,51 @@
   venue: TESOL Quarterly
   volume: '59'
   year: '2024'
+- authors: Curran, N. M.
+  doi: 10.1080/09588221.2021.1976801
+  issue: '7'
+  pages: 1288-1308
+  title: '“More like a friend than a teacher”: ideal teachers and the gig economy
+    for online language learning'
+  venue: Computer Assisted Language Learning
+  volume: '36'
+  year: '2023'
+- authors: Curran, N. M., & Jenks, C.
+  doi: 10.1093/applin/amac019
+  issue: '3'
+  pages: 442-461
+  title: 'Gig Economy Teaching: On the Importance and Dangers of Self-branding in
+    Online Markets'
+  venue: Applied Linguistics
+  volume: '44'
+  year: '2023'
+- authors: Curran, N. M.
+  doi: 10.1080/09500782.2021.1981928
+  issue: '2'
+  pages: 171-185
+  title: 'Discrimination in the gig economy: the experiences of Black online English
+    teachers'
+  venue: Language and Education
+  volume: '37'
+  year: '2023'
+- authors: Chesnut, M., Curran, N. & Kim, S.
+  doi: 10.1515/multi-2022-0009
+  issue: '1'
+  pages: 25-53
+  title: 'From garbage to COVID-19: theorizing ‘Multilingual Commanding Urgency’ in
+    the linguistic landscape'
+  venue: Multilingua
+  volume: '42'
+  year: '2023'
+- authors: Curran, N. M., Zhen, L., & Galperin, H.
+  doi: 10.1080/1369118X.2021.1934068
+  issue: '1'
+  pages: 104-122
+  title: 'Pop cosmopolitanism and online language learning: findings from a discrete
+    choice experiment'
+  venue: Information, Communication & Society
+  volume: '26'
+  year: '2023'
 - authors: Curran, N. M., Istad, F., & Chesnut, M.
   doi: https://doi.org/10.1080/15528014.2023.2286725
   issue: '3'
