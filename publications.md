@@ -14,7 +14,7 @@ permalink: /publications/
         {{ forloop.index }}.
       </span>
 
-      <span style="font-size: 1.05rem; color: #1f2937;">
+      <span style="font-size: 1.05rem; color: #1f2937; min-width: 0;">
         {{ pub.authors }} ({{ pub.year }}). 
         
         {{ pub.title }}. 
@@ -29,7 +29,7 @@ permalink: /publications/
         
         {% if pub.doi %}
           <br>
-          <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-size: 0.95rem;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">{{ pub.doi }}</a>
+          <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-size: 0.95rem; display: inline-block; max-width: 100%; overflow-wrap: break-word; word-break: break-all;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">{{ pub.doi }}</a>
         {% endif %}
       </span>
     </div>
