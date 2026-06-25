@@ -16,9 +16,13 @@ Here are the latest publications from the LTC Lab:
         
         {{ pub.title }}. 
         
-        <em style="color: #1f2937;">{{ pub.venue }}</em>{% if pub.volume or pub.pages %},{% endif %}
+        <em style="color: #1f2937;">{{ pub.venue }}</em>{% if pub.volume or pub.pages %},{% else %}.{% endif %}
         
-        {% if pub.volume %}<em style="color: #1f2937;"> {{ pub.volume }}</em>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
+        {% if pub.volume %}
+          <em style="color: #1f2937;"> {{ pub.volume }}</em>{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}.{% else %}.{% endif %}
+        {% else %}
+          {% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %} {{ pub.pages }}.{% endif %}
+        {% endif %}
         
         {% if pub.doi %}
           <br>
