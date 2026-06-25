@@ -41,7 +41,6 @@ jobs:
                   if len(parts) > 1:
                       # Assumes last word is the surname; converts preceding words to initials
                       surname = parts[-1]
-                      initials = "".join([f"{p[0]}." for p in parts[:-1]])
                       # Insert space between initials to comply with APA style
                       initials_formatted = " ".join([f"{p[0]}." for p in parts[:-1]])
                       apa_names.append(f"{surname}, {initials_formatted}")
@@ -58,6 +57,13 @@ jobs:
               else:
                   return ", ".join(apa_names[:-1]) + f", & {apa_names[-1]}"
 
+          # Load manual items if they exist to protect from OpenAlex identification gaps
+          manual_data = []
+          manual_path = "_data/manual_publications.yml"
+          if os.path.exists(manual_path):
+              with open(manual_path, "r") as f:
+                  manual_data = yaml.safe_load(f) or []
+
           url = "https://api.openalex.org/works"
           params = {
               "filter": "author.id:A5061947416|A5093544766,publication_year:>2022",
@@ -70,7 +76,7 @@ jobs:
               sys.exit(1)
               
           results = response.json().get("results", [])
-          data_to_save = []
+          api_data = []
 
           for work in results:
               title = work.get("title", "Untitled Work").strip(".")
@@ -94,7 +100,7 @@ jobs:
               last_p = biblio.get("last_page")
               pages = f"{first_p}–{last_p}" if first_p and last_p else first_p
 
-              data_to_save.append({
+              api_data.append({
                   "title": title,
                   "doi": doi if doi else None,
                   "authors": authors,
@@ -105,9 +111,13 @@ jobs:
                   "pages": str(pages) if pages else None
               })
 
+          # Combine files: manual items stay on top, API items drop below
+          combined_data = manual_data + api_data
+
           os.makedirs("_data", exist_ok=True)
           with open("_data/scholar_publications.yml", "w") as f:
-              yaml.dump(data_to_save, f, default_flow_style=False, allow_unicode=True)
+              yaml.dump(combined_data, f, default_flow_style=False, allow_unicode=True)
+          print(f"SUCCESS: Compiled {len(combined_data)} total items ({len(manual_data)} manual, {len(api_data)} API).")
           EOF
 
       - name: Run Sync Script
@@ -118,4 +128,4 @@ jobs:
           git config --global user.name "Scholar Sync Bot"
           git config --global user.email "bot@github.com"
           git add _data/scholar_publications.yml
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers with APA parsing" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers with APA parsing and manual merge" && git push)
