@@ -27,7 +27,7 @@ permalink: /team/
     <img src="{{ '/images/Lucas.jpg' | relative_url }}" alt="Lucas John Peltonen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
       <h3 style="margin: 0; font-size: 1.35rem;">
-        <a href="https://openalex.org/authors/A5099990995" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
+        <a href="https://scholar.google.com/citations?user=bcFEBPMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
           Lucas John Peltonen
         </a>
       </h3>
