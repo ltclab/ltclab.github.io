@@ -24,6 +24,22 @@ permalink: /team/
   </div>
 
   <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
+    <img src="{{ '/images/Lucas.jpg' | relative_url }}" alt="Lucas John Peltonen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
+      <h3 style="margin: 0; font-size: 1.35rem;">
+        <a href="https://openalex.org/authors/A5099990995" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
+          Lucas John Peltonen
+        </a>
+      </h3>
+      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:lucas.peltonen@connect.polyu.hk" style="color: inherit; text-decoration: none;">lucas.peltonen@connect.polyu.hk</a></p>
+      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Applied Linguistics, Professional communication, English language teaching, Transcultural Communication, Business English, Pedagogy, Curriculum Analysis</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">My research focuses on business professionals using English as a business lingua franca (BELF) for their transnational communication, which requires linguacultural competence (LCC). In this study, a novel conceptual framework, the LCC framework, was developed to address the linguacultural competence of BELF learners and users. Adopting an experimental mixed methods intervention design, quantitative and qualitative data was collected from two groups of job-experienced Chinese professionals who use English for work: a control group receiving instruction on an existing business English (BE) textbook unit and an experimental group exposed to an adapted version of the unit specifically targeting two LCCs. It is hoped that this investigation provides insight into how to develop BE curricula to prepare learners for transcultural communication in the workplace, ideally contributing to more efficient professional communication and leading to socioeconomic improvement regionally and globally.</p>
+      
+      <div class="recent-pubs" data-openalex="A5099990995" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Stephy.jpg' | relative_url }}" alt="Wang Jinyan Stephy" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
       <h3 style="margin: 0; font-size: 1.35rem;">
@@ -77,7 +93,7 @@ permalink: /team/
           Zeng Wenjing
         </a>
       </h3>
-      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jinyan.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">jinyan.wang@connect.polyu.hk</a></p>
+      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:venjing.zeng@polyu.edu.hk" style="color: inherit; text-decoration: none;">venjing.zeng@polyu.edu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Online language teaching; Language and identity; Platformization; Intersectionality</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">I have been working in our lab since graduating from PolyU in 2024. My research focuses on online language teaching, teacher identity, and platform-mediated work. I am particularly interested in how individuals construct and negotiate their identities across different social contexts. More specifically, I study the platformization of language teaching and the experiences of online language tutors in the gig economy, with a focus on the inequalities shaped by intersectional identities. Beyond research, I am drawn to realist literature and film, and I enjoy being close to people, pets, and nature.</p>
       

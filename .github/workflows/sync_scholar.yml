@@ -31,11 +31,12 @@ jobs:
 
           url = "https://api.openalex.org/works"
           
-          # Using the pipe symbol (|) combines both author IDs into a single clean request
+          # Filter restricted back to just Ming's two profile IDs
+          # Still pulling everything from 2023 onwards up to 100 entries
           params = {
-              "filter": "author.id:A5061947416|A5093544766",
+              "filter": "author.id:A5061947416|A5093544766,publication_year:>2022",
               "sort": "publication_year:desc,publication_date:desc",
-              "per_page": 20
+              "per_page": 100
           }
 
           response = requests.get(url, params=params, headers={"User-Agent": "mailto:lab@example.com"})
@@ -47,7 +48,7 @@ jobs:
           results = response.json().get("results", [])
           
           if not results:
-              print("No records found tied to these specific profile IDs.")
+              print("No records found tied to these specific profile IDs since 2023.")
               sys.exit(1)
 
           data_to_save = []
@@ -86,4 +87,4 @@ jobs:
           git config --global user.name "Scholar Sync Bot"
           git config --global user.email "bot@github.com"
           git add _data/scholar_publications.yml
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync top 20 papers from OpenAlex profiles" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers since 2023 from OpenAlex" && git push)
