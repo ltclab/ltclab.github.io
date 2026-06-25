@@ -111,13 +111,21 @@ jobs:
                   "pages": str(pages) if pages else None
               })
 
-          # Combine files: manual items stay on top, API items drop below
-          combined_data = manual_data + api_data
+          # Combine files
+          unsorted_data = manual_data + api_data
+
+          # Sort by year in reverse chronological order (newest year down to oldest)
+          # Using a fallback lambda approach ensures that string 'N/A' years don't break the integer sorts
+          combined_data = sorted(
+              unsorted_data, 
+              key=lambda x: int(x['year']) if str(x['year']).isdigit() else 0, 
+              reverse=True
+          )
 
           os.makedirs("_data", exist_ok=True)
           with open("_data/scholar_publications.yml", "w") as f:
               yaml.dump(combined_data, f, default_flow_style=False, allow_unicode=True)
-          print(f"SUCCESS: Compiled {len(combined_data)} total items ({len(manual_data)} manual, {len(api_data)} API).")
+          print(f"SUCCESS: Compiled and sorted {len(combined_data)} total items.")
           EOF
 
       - name: Run Sync Script
@@ -128,4 +136,4 @@ jobs:
           git config --global user.name "Scholar Sync Bot"
           git config --global user.email "bot@github.com"
           git add _data/scholar_publications.yml
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers with APA parsing and manual merge" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync Ming's papers with sorted reverse-chronological APA merge" && git push)
