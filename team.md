@@ -40,11 +40,11 @@ permalink: /team/
   </div>
 
   <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Lucas.jpg' | relative_url }}" alt="Lucas John Peltonen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Lucas.jpg' | relative_url }}" alt="Dr. Lucas John Peltonen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
       <h3 style="margin: 0; font-size: 1.35rem;">
         <a href="https://scholar.google.com/citations?user=bcFEBPMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
-          Lucas John Peltonen
+          Dr. Lucas John Peltonen
         </a>
       </h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:lucas.peltonen@connect.polyu.hk" style="color: inherit; text-decoration: none;">lucas.peltonen@connect.polyu.hk</a></p>
