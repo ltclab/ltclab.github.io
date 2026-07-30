@@ -23,6 +23,22 @@ permalink: /team/
     </div>
   </div>
 
+<div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
+    <img src="{{ '/images/Joanna.png.avif' | relative_url }}" alt="Dr. Joanna Chen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
+      <h3 style="margin: 0; font-size: 1.35rem;">
+        <a href="https://scholar.google.com/citations?user=aO51kbYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
+          Dr. Joanna Chen
+        </a>
+      </h3>
+      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
+      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual Metaphor Theory, Branding, Persuasion, Business Communication, Professional Communication, AI-assisted Language Learning</p>
+      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Joanna Zhuoan Chen is a Postdoctoral Fellow in the Department of English and Communication at The Hong Kong Polytechnic University. Her research spans several intersecting fields including marketing, applied linguistics, and Conceptual Metaphor Theory, looking at consumer response to figurative text structure.</p>
+      
+      <div class="recent-pubs" data-openalex="A5078809635" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
+    </div>
+  </div>
+
   <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
     <img src="{{ '/images/Lucas.jpg' | relative_url }}" alt="Lucas John Peltonen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
@@ -56,9 +72,9 @@ permalink: /team/
   </div>
 
   <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Phoebe.jpg' | relative_url }}" alt="Phoebe" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
+    <img src="{{ '/images/Phoebe.jpg' | relative_url }}" alt="Phoebe Liao" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
     <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
-      <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem; font-weight: 600;">Phoebe</h3>
+      <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem; font-weight: 600;">Phoebe Liao</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:23051657g@connect.polyu.hk" style="color: inherit; text-decoration: none;">23051657g@connect.polyu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Intercultural Communication, Digital Identity</p>
       <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">15 years of 'teaching' – still nervous every time. Officially an early-career researcher (let’s just smile and move on). Fueled by boba milk tea. At home: proud caretaker of a little witch. In life: a cozy, introverted, slightly lazy middle-aged lady. My research is slow, my heart is full.</p>
@@ -81,7 +97,7 @@ permalink: /team/
       <h3 style="margin: 0; color: #1f2937; font-size: 1.35rem; font-weight: 600;">Wang Ziyue Ivy</h3>
       <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:ziyue.wang@connect.polyu.hk" style="color: inherit; text-decoration: none;">ziyue.wang@connect.polyu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Gender and Sexuality, Digital Communication, Online Language Teaching, Visual Semiotics</p>
-      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">I am currently an MA research student in the Department of English, Linguistics, and Theatre Studies in the National University of Singapore. I received my BA in English and Applied Linguistics from The Hong Kong Polytechnic University. My current research interests include language, gender, and sexuality; new media and digital communication; online language teaching; and visual semiotics.</p>
+      <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Miss Wang Ziyue Ivy is an incoming PhD student at The Hong Kong Polytechnic University. She holds a MPhil from the National University of Singapore. Her current research interests include 1) language, gender, and sexuality; 2) new media and digital communication; 3) online language teaching; and 4) visual semiotics.</p>
     </div>
   </div>
 
@@ -93,7 +109,7 @@ permalink: /team/
           Zeng Wenjing
         </a>
       </h3>
-      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:venjing.zeng@polyu.edu.hk" style="color: inherit; text-decoration: none;">venjing.zeng@polyu.edu.hk</a></p>
+      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:jungwen.zeng@outlook.com" style="color: inherit; text-decoration: none;">jungwen.zeng@outlook.com</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Online language teaching; Language and identity; Platformization; Intersectionality</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">I have been working in our lab since graduating from PolyU in 2024. My research focuses on online language teaching, teacher identity, and platform-mediated work. I am particularly interested in how individuals construct and negotiate their identities across different social contexts. More specifically, I study the platformization of language teaching and the experiences of online language tutors in the gig economy, with a focus on the inequalities shaped by intersectional identities. Beyond research, I am drawn to realist literature and film, and I enjoy being close to people, pets, and nature.</p>
       
@@ -166,22 +182,6 @@ permalink: /team/
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Lichen Zhen is an Assistant Professor at Abington College, Pennsylvania State University. Her current research interests center on employee communication in technologically-mediated workplaces and online professional communities. She earned her Ph.D. from the University of Southern California.</p>
       
       <div class="recent-pubs" data-openalex="A5064533411" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
-    </div>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #fff; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); align-items: flex-start;">
-    <img src="{{ '/images/Joanna.png.avif' | relative_url }}" alt="Dr. Joanna Chen" style="width: 120px; height: 120px; border-radius: 6px; object-fit: cover; object-position: top; flex-shrink: 0; border: 2px solid #e5e7eb;">
-    <div style="flex: 1; min-width: 240px; word-break: break-word; overflow-wrap: break-word; text-align: left;">
-      <h3 style="margin: 0; font-size: 1.35rem;">
-        <a href="https://scholar.google.com/citations?user=aO51kbYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" style="color: #1f2937; text-decoration: none; font-weight: 600; transition: color 0.2s;" onmouseover="this.style.color='#2563eb'; this.style.textDecoration='underline'" onmouseout="this.style.color='#1f2937'; this.style.textDecoration='none'">
-          Dr. Joanna Chen
-        </a>
-      </h3>
-      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
-      <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual Metaphor Theory, Branding, Persuasion, Business Communication, Professional Communication, AI-assisted Language Learning</p>
-      <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Joanna Zhuoan Chen is a Postdoctoral Fellow in the Department of English and Communication at The Hong Kong Polytechnic University. Her research spans several intersecting fields including marketing, applied linguistics, and Conceptual Metaphor Theory, looking at consumer response to figurative text structure.</p>
-      
-      <div class="recent-pubs" data-openalex="A5078809635" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #e5e7eb;"></div>
     </div>
   </div>
 
