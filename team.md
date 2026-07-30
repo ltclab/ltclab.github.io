@@ -31,7 +31,7 @@ permalink: /team/
           Dr. Joanna Chen
         </a>
       </h3>
-      <p style="margin: 3px 0 12px 0; color: #059669; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
+      <p style="margin: 3px 0 12px 0; color: #2563eb; font-size: 0.95rem; font-weight: 500;"><a href="mailto:joanna.za.chen@polyu.edu.hk" style="color: inherit; text-decoration: none;">joanna.za.chen@polyu.edu.hk</a></p>
       <p style="margin: 0 0 10px 0; font-size: 0.95rem; color: #4b5563;"><strong>Research Interests:</strong> Conceptual Metaphor Theory, Branding, Persuasion, Business Communication, Professional Communication, AI-assisted Language Learning</p>
       <p style="margin: 0 0 15px 0; font-size: 0.95rem; line-height: 1.6; color: #6b7280; text-align: left;">Joanna Zhuoan Chen is a Postdoctoral Fellow in the Department of English and Communication at The Hong Kong Polytechnic University. Her research spans several intersecting fields including marketing, applied linguistics, and Conceptual Metaphor Theory, looking at consumer response to figurative text structure.</p>
       
